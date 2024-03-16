@@ -11,17 +11,20 @@ project_name="mlproject"
 list_of_files=[
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/components/data_ingestion/__init__.py",
-    f"src/{project_name}/components/data_transformation/__init__.py",
-    f"src/{project_name}/components/model_trainer/__init__.py",
-    f"src/{project_name}/components/model_monitering/__init__.py",
+    f"src/{project_name}/components/data_ingestion.py",
+    f"src/{project_name}/components/data_transformation.py",
+    f"src/{project_name}/components/model_trainer.py",
+    f"src/{project_name}/components/model_monitering.py",
     f"src/{project_name}/pipelines/__init__.py",
-    f"src/{project_name}/pipelines/training_pipeline/__init__.py",
-    f"src/{project_name}/pipelines/prediction_pipeline/__init__.py",
+    f"src/{project_name}/pipelines/training_pipeline.py",
+    f"src/{project_name}/pipelines/prediction_pipeline.py",
     f"src/{project_name}/exception.py",
     f"src/{project_name}/logger.py",
     f"src/{project_name}/utils.py",
+    "app.py",
     "Dockerfile",
+    "setup.py",
+    
 
 
     
